@@ -2,6 +2,12 @@ body {
     background-color: rgb(26, 26, 26)
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .banner {
     display: flex;
     flex-direction: row;
@@ -106,6 +112,7 @@ body {
 .lenguajes {
     display: flex;
     width: 80%;
+    margin: 10vw auto 0 auto;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -130,27 +137,74 @@ body {
             rgb(78, 163, 114) 40%,
             rgb(78, 163, 114) 60%,
             #303030 100%);
-    transform-style: preserve-3d;
     transition: all 0.15s ease-out;
 }
 
 .tarjeta img {
     width: 100%;
-    transform-style: preserve-3d;
     transition: all 0.15s ease-out;
 }
 
 .tarjeta:hover img {
-    transform: translateY(-50px) translateZ(50px) scale(1.4);
+    transform: rotateX(-10deg) scale(2) translateY(-20px) translateZ(2vw);
     filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
 
 }
 
 .tarjeta:hover {
-    transform: translateY(20px) rotateX(40deg);
+    transform: rotateX(10deg) translateZ(-3vw);
     filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
     transition: all 0.15s ease-out;
 }
+
+#contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+    width: 100%;
+    margin-top: 7vw;
+}
+
+#contacto div {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.15s ease-out;
+    position: relative;
+}
+
+#contacto img {
+    width: 4vw;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    transition: all 0.15s ease-out;
+}
+
+#contacto div:hover img {
+    transform: translateZ(-50vw);
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+#contacto p {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    background: linear-gradient(45deg, rgb(10, 186, 77), #dfdfd5, rgb(26, 26, 26));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: blur(5px);
+    transition: all 0.2s ease-out;
+}
+
+#contacto div:hover p {
+    opacity: 1;
+    transform: translate(2vw, -1vw) translateZ(10vw);
+    filter: blur(0px);
+}
+
 
 @keyframes animationWord {
     0% {
