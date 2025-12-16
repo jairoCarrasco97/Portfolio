@@ -30,7 +30,7 @@
 
     .slider-container {
         grid-area: slider;
-        margin: 20% 0 0 20%;
+        margin: 15% 0 0 15%;
         width: 95%;
     }
 
@@ -58,12 +58,34 @@
     .img-container {
         grid-area: foto;
         display: flex;
-        margin: 15% 0 0 0;
+        margin: 10% 0 0 0;
         width: 100%;
     }
 
     .img-container img {
-        width: 40vw;
+        width: 50vw;
+        margin: 0 0 0 5%;
+    }
+
+    .img-perfil {
+        width: 20vw;
+        height: auto;
+        margin: 2vw 0 0 15vw;
+    }
+
+    .codigo-container {
+        width: 25vw;
+        margin: 4vw 0 0 -20%;
+    }
+
+    #codigo {
+        font-size: 1.2vw;
+        font-family: 'VT323', monospace;
+        background: linear-gradient(90deg, rgb(49, 72, 40), rgb(10, 186, 77), rgb(26, 26, 26));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
     }
 
     #contacto {
@@ -71,7 +93,7 @@
         display: flex;
         flex-direction: column;
         gap: 20vw;
-        margin: 30% 0 0 0;
+        margin: 80% 15% 0 -45%;
     }
 
     #contacto img {
