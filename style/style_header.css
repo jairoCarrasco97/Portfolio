@@ -127,61 +127,18 @@ header {
     justify-content: space-around;
 }
 
-.lenguajes {
-    display: flex;
-    width: 80%;
-    margin: 10vw auto 0 auto;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    perspective: 1000px;
-}
-
-.tarjeta {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 15vw;
-    padding: 1.5%;
-    aspect-ratio: 16/9;
-    margin: 80px auto 0 auto;
-    border-radius: 20px;
-    transition: all 0.15s ease-out;
-}
-
-.tarjeta img {
-    width: 100%;
-    border-radius: 20px;
-    opacity: 1;
-    transition: all 0.15s ease-out;
-}
-
-.tarjeta:hover img {
-    transform: scale(2) translateY(-20px) translateZ(2vw);
-    filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
-
-}
-
-.tarjeta:hover {
-    transform: translateZ(-3vw);
-    filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
-    transition: all 0.15s ease-out;
-}
 
 #contacto {
     display: flex;
+    margin: 0 0 0 -10%;
     flex-direction: row;
-    align-items: center;
-    gap: 1vw;
-    width: 100%;
+    width: 95%;
     margin-top: 7vw;
 }
 
 #contacto div {
     transform-style: preserve-3d;
-    width: 15vw;
+    width: 17vw;
     perspective: 1000px;
     transition: all 0.15s ease-out;
     position: relative;
@@ -221,6 +178,7 @@ header {
     display: flex;
     justify-content: center;
     opacity: 0;
+    font-size: 2vw;
     transform: scale(0.1);
     position: relative;
     text-align: center;
@@ -336,9 +294,19 @@ header {
         opacity: 1;
     }
 
+    40% {
+        opacity: 1;
+    }
+
     50% {
         opacity: 0;
     }
+
+    90% {
+        opacity: 0;
+    }
+
+
 }
 
 @keyframes animacionIconoContacto {

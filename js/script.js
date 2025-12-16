@@ -29,10 +29,13 @@ const contactoWhatsapp = "+34 622 87 75 70";
 const contactoGmailId = "contactoGmail";
 const contactoGithubId = "contactoGithub";
 const contactoWhatsappId = "contactoWhatsapp";
+const proyectosTitulo = "Proyectos";
+const proyectosTituloId = "proyectosTitulo";
 
 let j1 = 0;
 let j2 = 0;
 let j3 = 0;
+let j4 = 0;
 function animacionContactosEscrito(contactoDiv, id, j) {
     const contacto = document.getElementById(id)
 
@@ -67,3 +70,4 @@ function animacionContactosBorrado(contactoDiv, id, j) {
 animacionContactosEscrito(contactoGmail, contactoGmailId, j1);
 animacionContactosEscrito(contactoGithub, contactoGithubId, j2);
 animacionContactosEscrito(contactoWhatsapp, contactoWhatsappId, j3);
+animacionContactosEscrito(proyectosTitulo, proyectosTituloId, j4);

@@ -1,0 +1,153 @@
+.lenguajes {
+    display: flex;
+    width: 80%;
+    margin: 10vw auto 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.tarjeta {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    padding: 1.5%;
+    aspect-ratio: 16/9;
+    margin: 80px auto 0 auto;
+    border-radius: 20px;
+    transition: all 0.15s ease-out;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 20px;
+    opacity: 1;
+    transition: all 0.15s ease-out;
+}
+
+.tarjeta:hover img {
+    transform: scale(2) translateY(-20px) translateZ(2vw);
+    filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
+
+}
+
+.tarjeta:hover {
+    transform: translateZ(-3vw);
+    filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
+    transition: all 0.15s ease-out;
+}
+
+#proyectosTitulo {
+    margin: 10vw auto 0 auto;
+    text-align: center;
+    color: rgb(10, 187, 77);
+    font-size: 7vw;
+
+}
+
+#proyectosTitulo::after {
+    content: "|";
+    -webkit-text-fill-color: rgb(201, 202, 201);
+    animation: animacionCursor 1s infinite;
+}
+
+
+.proyecto {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    width: 7vw;
+    border: 1px solid #dfdfd5;
+    box-shadow: 0px 0px 10px #dfdfd5;
+    border-radius: 20px;
+}
+
+#proyecto-carrusel {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto 0 auto;
+    width: 90%;
+    height: 30vw;
+    gap: 2vw;
+    border-radius: 30px;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 100%;
+    object-position: 10% center;
+    object-fit: cover;
+
+}
+
+.proyecto h3 {
+    font-size: 2vw;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    color: #dfdfd5;
+}
+
+.proyecto h4 {
+    font-size: 5vw;
+    position: absolute;
+    bottom: 40%;
+    left: 25%;
+    color: #dfdfd5;
+    opacity: 0;
+}
+
+.proyecto p {
+    font-size: 2vw;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    color: #dfdfd5;
+    opacity: 0;
+}
+
+.proyecto:hover {
+    flex: 8;
+    transition: all 0.5s ease-out;
+}
+
+.proyecto:hover img {
+    transform: scale(1.1) translateY(-20px) translateZ(2vw);
+    opacity: 0.3;
+    filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
+    transition: all 0.15s ease-out;
+}
+
+.proyecto:hover h3 {
+    opacity: 0;
+    transition: all 0.15s ease-out;
+}
+
+.proyecto:hover h4 {
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+.proyecto h4::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #dfdfd5;
+    box-shadow: 0 0 10px rgb(10, 187, 77);
+    transition: all 1s ease-out;
+}
+
+.proyecto:hover p {
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+.proyecto:hover h4::after {
+    width: 100%;
+    transition: all 0.10s ease-out;
+}
