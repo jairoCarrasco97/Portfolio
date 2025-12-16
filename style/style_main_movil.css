@@ -4,7 +4,7 @@
     }
 
     .proyecto {
-        animation: carrusel 24s infinite ease-in-out;
+        animation: carrusel 24s infinite cubic-bezier(0.25, 1, 0.5, 1);
     }
 
     #proyectos h2 {
@@ -27,17 +27,15 @@
             flex: 1;
         }
 
-        10% {
+        12% {
             flex: 8;
         }
+
 
         25% {
             flex: 1;
         }
 
-        100% {
-            flex: 1;
-        }
     }
 
     #proyecto-carrusel .proyecto:nth-child(1) {
