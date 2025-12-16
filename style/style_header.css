@@ -55,25 +55,48 @@ header {
     color: #dfdfd5;
 }
 
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10%;
+    width: 90%;
+    padding: 0;
+}
+
+.saludoYhola {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+
 #saludo {
-    margin: 5vw 0 0 6vw;
-    width: 10%;
+    margin: 0 0 0 0vw;
+    width: 12%;
     animation: animationSaludo 3s infinite;
     animation-timing-function: ease-in-out;
     transform-origin: 70% 80%;
+    padding: 1.5vw;
+    display: inline-flex;
+    line-height: 1;
 }
 
 #hola {
-    margin: 6vw 0 0 0;
+    margin: 3% 0 0 -5%;
     width: 70%;
+    flex: 1;
+    padding: 0;
 }
 
 #slider {
-    margin: 0 auto 0 auto;
-    height: 0.1em;
+    margin: 0vw 0 0 5%;
+    width: auto;
+    height: 4em;
     line-height: 4em;
     overflow: hidden;
     vertical-align: bottom;
+    padding-top: 0%;
+    color: #dfdfd5;
 
 }
 
@@ -104,11 +127,6 @@ header {
     justify-content: space-around;
 }
 
-#slider {
-    padding-top: 10%;
-    color: white;
-}
-
 .lenguajes {
     display: flex;
     width: 80%;
@@ -125,34 +143,29 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 3vw;
+    width: 15vw;
     padding: 1.5%;
-    aspect-ratio: 9/16;
+    aspect-ratio: 16/9;
     margin: 80px auto 0 auto;
-    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.5));
-    border: 2px solid rgba(10, 186, 77, 0.5);
-    border-radius: 10px;
-    background: linear-gradient(90deg,
-            #303030 0%,
-            rgb(78, 163, 114) 40%,
-            rgb(78, 163, 114) 60%,
-            #303030 100%);
+    border-radius: 20px;
     transition: all 0.15s ease-out;
 }
 
 .tarjeta img {
     width: 100%;
+    border-radius: 20px;
+    opacity: 1;
     transition: all 0.15s ease-out;
 }
 
 .tarjeta:hover img {
-    transform: rotateX(-10deg) scale(2) translateY(-20px) translateZ(2vw);
+    transform: scale(2) translateY(-20px) translateZ(2vw);
     filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
 
 }
 
 .tarjeta:hover {
-    transform: rotateX(10deg) translateZ(-3vw);
+    transform: translateZ(-3vw);
     filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
     transition: all 0.15s ease-out;
 }
@@ -161,29 +174,45 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 4vw;
+    gap: 1vw;
     width: 100%;
     margin-top: 7vw;
 }
 
 #contacto div {
     transform-style: preserve-3d;
+    width: 15vw;
     perspective: 1000px;
     transition: all 0.15s ease-out;
     position: relative;
 }
 
+#contacto div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(100vw);
+    z-index: 10;
+}
+
 #contacto img {
     width: 4vw;
+    height: 4vw;
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 0%;
+    left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.15s ease-out;
+    animation: animacionIconoContacto 2s ease-out infinite;
 }
 
 #contacto div:hover img {
-    transform: translateZ(-50vw);
+    animation: none;
+    transform: scale(0.5);
+    justify-content: center;
     filter: blur(5px);
     opacity: 0.5;
 }
@@ -192,6 +221,9 @@ header {
     display: flex;
     justify-content: center;
     opacity: 0;
+    transform: scale(0.1);
+    position: relative;
+    text-align: center;
     background: linear-gradient(45deg, rgb(10, 186, 77), #dfdfd5, rgb(26, 26, 26));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -205,6 +237,11 @@ header {
     filter: blur(0px);
 }
 
+#contacto p::after {
+    content: "|";
+    -webkit-text-fill-color: rgb(10, 187, 77);
+    animation: animacionCursor 0.5s infinite;
+}
 
 @keyframes animationWord {
     0% {
@@ -291,5 +328,59 @@ header {
 
     100% {
         transform: rotate(0deg) scale(1);
+    }
+}
+
+@keyframes animacionCursor {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes animacionIconoContacto {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0));
+    }
+
+    30% {
+        transform: scale(1);
+        opacity: 0.8;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0));
+    }
+
+    40% {
+        transform: scale(1.2);
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0.6));
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 0.8;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0));
+    }
+
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0.6));
+    }
+
+    70% {
+        transform: scale(1);
+        opacity: 0.8;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0));
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+        filter: drop-shadow(0px 0px 15px rgba(10, 186, 77, 0));
     }
 }

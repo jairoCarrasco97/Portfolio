@@ -9,12 +9,61 @@ function animacionCodigoEscrito() {
     if (i < texto.length) {
         codigo.innerHTML += texto.charAt(i);
         i++;
-        setTimeout(animacionCodigoEscrito, 7);
+        setTimeout(animacionCodigoEscrito, 20);
     }
     if (i == texto.length) {
         i = 0;
         codigo.innerHTML = "";
+
+
     }
 }
 
 animacionCodigoEscrito();
+
+// Texto de animación de contactos y función
+
+const contactoGmail = "jairocarrasco97.dev";
+const contactoGithub = "jairoCarrasco97";
+const contactoWhatsapp = "+34 622 87 75 70";
+const contactoGmailId = "contactoGmail";
+const contactoGithubId = "contactoGithub";
+const contactoWhatsappId = "contactoWhatsapp";
+
+let j1 = 0;
+let j2 = 0;
+let j3 = 0;
+function animacionContactosEscrito(contactoDiv, id, j) {
+    const contacto = document.getElementById(id)
+
+    if (j < contactoDiv.length) {
+        contacto.innerHTML += contactoDiv.charAt(j);
+        j++;
+        setTimeout(animacionContactosEscrito, 150, contactoDiv, id, j);
+    }
+    else if (j == contactoDiv.length) {
+        setTimeout(() => {
+            animacionContactosBorrado(contactoDiv, id, j);
+        }, 1000);
+    }
+}
+
+function animacionContactosBorrado(contactoDiv, id, j) {
+    const contacto = document.getElementById(id)
+
+    if (j > 0) {
+        contacto.innerHTML = contactoDiv.substring(0, j);
+        j--;
+        setTimeout(animacionContactosBorrado, 50, contactoDiv, id, j);
+    }
+    else if (j == 0) {
+        setTimeout(() => {
+            contacto.innerHTML = "";
+            animacionContactosEscrito(contactoDiv, id, j);
+        }, 500);
+    }
+}
+
+animacionContactosEscrito(contactoGmail, contactoGmailId, j1);
+animacionContactosEscrito(contactoGithub, contactoGithubId, j2);
+animacionContactosEscrito(contactoWhatsapp, contactoWhatsappId, j3);
