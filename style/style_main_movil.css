@@ -2,4 +2,19 @@
     .tarjeta img {
         width: 200%;
     }
+
+    #proyectos h2 {
+        font-size: 350%;
+    }
+
+    #proyecto-carrusel {
+        margin: 10% auto 0 auto;
+    }
+
+    #proyecto-carrusel {
+        width: 90%;
+        height: 60vw;
+        gap: 2vw;
+        border-radius: 10px;
+    }
 }
