@@ -9,6 +9,20 @@
 
     #proyecto-carrusel {
         margin: 10% auto 0 auto;
+        width: 80%;
+        height: 90vw;
+        gap: 3.5%;
     }
+
+    .proyecto h4 {
+        font-size: 200%;
+        bottom: 60%;
+        left: 10%;
+    }
+
+    .proyecto p {
+        font-size: 150%;
+    }
+
 
 }
