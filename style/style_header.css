@@ -73,8 +73,7 @@ header {
 #saludo {
     margin: 0 0 0 0vw;
     width: 12%;
-    animation: animationSaludo 3s infinite;
-    animation-timing-function: ease-in-out;
+    animation: animationSaludo 3s ease-in-out infinite;
     transform-origin: 70% 80%;
     padding: 1.5vw;
     display: inline-flex;
