@@ -44,14 +44,14 @@
 #proyectosTitulo {
     margin: 10vw auto 0 auto;
     text-align: center;
-    color: rgb(10, 187, 77);
+    color: #dfdfd5;
     font-size: 7vw;
 
 }
 
 #proyectosTitulo::after {
     content: "|";
-    -webkit-text-fill-color: rgb(201, 202, 201);
+    -webkit-text-fill-color: rgb(10, 187, 77);
     animation: animacionCursor 1s infinite;
 }
 
