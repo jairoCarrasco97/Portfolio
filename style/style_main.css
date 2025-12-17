@@ -61,8 +61,8 @@
     position: relative;
     overflow: hidden;
     width: 7vw;
-    border: 1px solid #dfdfd5;
-    box-shadow: 0px 0px 10px #dfdfd5;
+    border: 1px solid rgb(10, 187, 77);
+    box-shadow: 0px 0px 10px rgb(10, 187, 77);
     border-radius: 20px;
     transform: skew(-10deg);
     animation: carrusel 24s infinite cubic-bezier(0.10, 0.9, 0.5, 1);
@@ -100,16 +100,6 @@
 
 }
 
-.proyecto h3 {
-    font-size: 2vw;
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-    color: #dfdfd5;
-    transform: rotate(-90deg);
-    animation: carruselOcultarTitulo 24s infinite cubic-bezier(0.10, 0.9, 0.5, 1);
-}
-
 .proyecto h4 {
     font-size: 5vw;
     position: absolute;
@@ -131,14 +121,16 @@
 }
 
 #proyecto-carrusel {
-    width: 90%;
+    width: 60%;
     height: 25vw;
     gap: 3vw;
     border-radius: 10px;
 }
 
+
 .proyecto:hover {
-    flex: 16;
+    flex: 80%;
+    animation-play-state: paused;
     transition: all 0.5s ease-out;
 }
 
@@ -185,7 +177,7 @@
     }
 
     15% {
-        flex: 8;
+        flex: 200;
     }
 
 
@@ -209,31 +201,30 @@
     }
 }
 
-@keyframes carruselOcultarTitulo {
-    0% {
-        opacity: 1;
-    }
-
-    15% {
-        opacity: 0;
-    }
-
-    17% {
-        opacity: 1;
-    }
-}
 
 @keyframes carruselOcultarFondo {
     0% {
         opacity: 1;
     }
 
+    2% {
+        opacity: 0.2;
+        background-color: black;
+    }
+
     15% {
         opacity: 0.2;
+        background-color: black;
+    }
+
+    16% {
+        transform: scale(1.4);
     }
 
     17% {
-        opacity: 1;
+        transform: scale(1);
+        opacity: 0.1;
+        background-color: black;
     }
 }
 
@@ -287,4 +278,9 @@
     animation-delay: 20s;
 }
 
-/* Delay carrusel texto */
+#proyecto-carrusel:hover .proyecto,
+#proyecto-carrusel:hover img,
+#proyecto-carrusel:hover h4,
+#proyecto-carrusel:hover p {
+    animation-play-state: paused;
+}
