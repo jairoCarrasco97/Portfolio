@@ -29,20 +29,27 @@ const contactoWhatsapp = "+34 622 87 75 70";
 const contactoGmailId = "contactoGmail";
 const contactoGithubId = "contactoGithub";
 const contactoWhatsappId = "contactoWhatsapp";
+const lenguajesTitulo = "Lenguajes";
+const lenguajesTituloId = "lenguajesTitulo";
 const proyectosTitulo = "Proyectos";
 const proyectosTituloId = "proyectosTitulo";
+const sobreMiTitulo = "Sobre mí";
+const sobreMiTituloId = "sobre-miTitulo";
 
 let j1 = 0;
 let j2 = 0;
 let j3 = 0;
 let j4 = 0;
+let j5 = 0;
+let j6 = 0;
 function animacionContactosEscrito(contactoDiv, id, j) {
     const contacto = document.getElementById(id)
-
+    let delay = Math.floor(Math.random() * (400 - 100 + 1)) + 10;
     if (j < contactoDiv.length) {
         contacto.innerHTML += contactoDiv.charAt(j);
         j++;
-        setTimeout(animacionContactosEscrito, 150, contactoDiv, id, j);
+
+        setTimeout(animacionContactosEscrito, delay, contactoDiv, id, j);
     }
     else if (j == contactoDiv.length) {
         setTimeout(() => {
@@ -53,11 +60,11 @@ function animacionContactosEscrito(contactoDiv, id, j) {
 
 function animacionContactosBorrado(contactoDiv, id, j) {
     const contacto = document.getElementById(id)
-
+    let delay = Math.floor(Math.random() * (400 - 100 + 1)) + 10;
     if (j > 0) {
         contacto.innerHTML = contactoDiv.substring(0, j);
         j--;
-        setTimeout(animacionContactosBorrado, 50, contactoDiv, id, j);
+        setTimeout(animacionContactosBorrado, delay, contactoDiv, id, j);
     }
     else if (j == 0) {
         setTimeout(() => {
@@ -71,3 +78,5 @@ animacionContactosEscrito(contactoGmail, contactoGmailId, j1);
 animacionContactosEscrito(contactoGithub, contactoGithubId, j2);
 animacionContactosEscrito(contactoWhatsapp, contactoWhatsappId, j3);
 animacionContactosEscrito(proyectosTitulo, proyectosTituloId, j4);
+animacionContactosEscrito(sobreMiTitulo, sobreMiTituloId, j5);
+animacionContactosEscrito(lenguajesTitulo, lenguajesTituloId, j6);

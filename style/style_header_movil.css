@@ -87,7 +87,7 @@
     #codigo {
         font-size: 1.5vw;
         font-family: 'VT323', monospace;
-        background: linear-gradient(90deg, rgb(49, 72, 40), rgb(10, 186, 77), rgb(26, 26, 26));
+        background: linear-gradient(90deg, rgb(86, 87, 86), rgb(10, 186, 77), rgb(26, 26, 26));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -107,10 +107,12 @@
     #contacto p {
         position: absolute;
         bottom: 30;
-        left: -90%;
-        font-size: 5vw;
-        -webkit-text-fill-color: initial;
-        color: #dfdfd5;
+        left: -270%;
+        font-size: 6vw;
+        font-family: 'VT323', monospace;
+        background: linear-gradient(90deg, rgb(49, 72, 40), rgb(204, 230, 214), rgb(26, 26, 26));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     #contacto img {
