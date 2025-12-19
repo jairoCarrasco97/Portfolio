@@ -107,7 +107,7 @@
     #contacto p {
         position: absolute;
         bottom: 30;
-        left: -270%;
+        left: -320%;
         font-size: 6vw;
         font-family: 'VT323', monospace;
         background: linear-gradient(90deg, rgb(49, 72, 40), rgb(204, 230, 214), rgb(26, 26, 26));
