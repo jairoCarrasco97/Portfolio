@@ -169,9 +169,10 @@ header {
     z-index: 10;
 }
 
-#contacto img {
+.contacto-img {
+    font-size: 5vw;
     width: 4vw;
-    height: 4vw;
+    height: auto;
     position: absolute;
     top: 0%;
     left: 50%;
@@ -180,7 +181,7 @@ header {
     animation: animacionIconoContacto 2s ease-out infinite;
 }
 
-#contacto div:hover img {
+#contacto div:hover .contacto-img {
     animation: none;
     transform: scale(0.5);
     justify-content: center;
