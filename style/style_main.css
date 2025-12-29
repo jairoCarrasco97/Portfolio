@@ -182,13 +182,15 @@
 
 @keyframes animacionTarjeta {
     0% {
-        transform: translateZ(-100vw);
+        transform: translateZ(-1000vw);
         filter: blur(1px);
+        opacity: 0.2;
     }
 
     5% {
         transform: translateZ(0px);
         filter: blur(2px);
+        opacity: 1;
     }
 
     10% {
