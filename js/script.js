@@ -47,7 +47,7 @@ let j5 = 0;
 let j6 = 0;
 function animacionContactosEscrito(contactoDiv, id, j) {
     const contacto = document.getElementById(id)
-    let delay = Math.floor(Math.random() * (400 - 100 + 1)) + 10;
+    let delay = Math.floor(Math.random() * (800 - 100 + 1)) + 10;
     if (j < contactoDiv.length) {
         contacto.innerHTML += contactoDiv.charAt(j);
         j++;
