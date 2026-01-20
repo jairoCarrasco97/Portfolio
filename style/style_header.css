@@ -150,12 +150,17 @@ header {
     margin-top: 7vw;
 }
 
+#contacto a {
+    color: inherit;
+}
+
 #contacto div {
     transform-style: preserve-3d;
     width: 17vw;
     perspective: 1000px;
     transition: all 0.15s ease-out;
     position: relative;
+    cursor: pointer;
 }
 
 #contacto div::before {

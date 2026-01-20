@@ -19,7 +19,7 @@
     .proyecto {
         width: 100%;
         height: 80vh;
-        border-radius: 10px;
+        transform: skewX(0deg);
     }
 
     #proyecto-carrusel {
@@ -41,6 +41,68 @@
 
     .proyecto p {
         font-size: 120%;
+    }
+
+    #perfil-sobre-mi {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #texto-sobre-mi {
+        padding: 5vw;
+        width: 70vw;
+        height: 80vw;
+        margin: 0 auto 0 auto;
+        font-size: 1.5vw;
+    }
+
+    #texto-sobre-mi h3 {
+        width: 80%;
+        height: 60vw;
+        text-align: center;
+        font-size: 3.5vw;
+        margin: auto auto auto auto;
+        padding: 1vw;
+        border-radius: 10px;
+    }
+
+    .texto-sobre-mi-img {
+        position: absolute;
+        width: 30vw;
+        top: 10%;
+        left: 5%;
+        transform: scaleX(-1);
+        opacity: 60%;
+    }
+
+    #datos-monitor {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        width: 70%;
+        height: 70vw;
+        margin: 0 8vw 0 0;
+        padding: 1vw;
+        overflow: hidden;
+        background-color: rgb(10, 187, 77);
+        border-radius: 20px;
+        margin: auto auto auto auto;
+    }
+
+    .datos-sobre-mi {
+        font-family: 'VT323', monospace;
+        color: rgb(26, 26, 26);
+        font-size: 3vw;
+        margin: 1vw 0vw 0 1vw;
+    }
+
+    .monitor-codigo {
+        display: flex;
+        z-index: -10;
+        position: absolute;
+        top: 20%;
+        left: 65%;
+        width: 25vw;
     }
 
     @keyframes carruselMostrarTituloMovil {

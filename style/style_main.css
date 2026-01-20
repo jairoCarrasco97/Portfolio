@@ -1,5 +1,6 @@
 #lenguajes .contenido {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 70%;
     margin: 1% auto 0 auto;
     flex-direction: row;
@@ -22,9 +23,9 @@
 }
 
 .tarjeta-img {
-    font-size: 4vw;
+    font-size: 5vw;
     color: rgb(10, 187, 77);
-    animation: animacionTarjeta 5s infinite ease-in-out;
+    animation: animacionTarjeta 4s infinite ease-in-out;
 }
 
 .tarjeta p {
@@ -42,7 +43,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animacionTarjetaTitulo 5s infinite ease-in-out;
+    animation: animacionTarjetaTitulo 4s infinite ease-in-out;
 }
 
 .titulo {
@@ -61,18 +62,16 @@
     animation: animacionCursor 1s infinite;
 }
 
-#proyectos {}
-
 .proyecto {
     flex: 1;
     position: relative;
     overflow: hidden;
     width: 7vw;
-    border: 1px solid rgb(179, 249, 206);
+    transform: skewX(-20deg);
+    border: 2px solid rgb(179, 249, 206);
     box-shadow: 0px 0px 10px rgb(10, 187, 77);
     box-shadow: inset 0px 0px 200px rgba(0, 0, 0, 1);
     background-color: rgb(37, 37, 37);
-    border-radius: 20px;
     animation: carrusel 24s infinite cubic-bezier(0.10, 0.9, 0.5, 1);
 
 }
@@ -91,11 +90,10 @@
     display: flex;
     flex-direction: row;
     margin: 5% auto 0 auto;
-    width: 50%;
+    width: 70%;
     height: 30vw;
     padding: 10px;
     border-radius: 25px;
-    background-color: rgb(104, 104, 104);
     margin: 1% auto 0 auto;
 }
 
@@ -111,14 +109,10 @@
 }
 
 .proyecto h4 {
-    font-size: 300%;
     position: absolute;
-    bottom: 40%;
-    left: 1.5vw;
     color: #dfdfd5;
     text-shadow: 25px 10px 7px rgba(0, 0, 0, 1);
     -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
-    opacity: 1;
     rotate: 90deg;
     transform-origin: left center;
     animation: carruselMostrarTitulo 24s infinite cubic-bezier(0.10, 0.9, 0.5, 1);
@@ -136,48 +130,71 @@
     animation: carruselMostrarDescripcion 24s infinite cubic-bezier(0.10, 0.9, 0.5, 1);
 }
 
-
-.proyecto:hover {
-    flex: 10;
-    animation-play-state: paused;
-    transition: all 0.5s ease-out;
+#texto-sobre-mi {
+    padding: 5vw;
+    width: 60vw;
+    margin: 0 auto 0 auto;
+    font-size: 1.5vw;
+    font-family: 'VT323', monospace;
 }
 
-.proyecto:hover img {
-    transform: scale(1.1) translateY(-20px) translateZ(2vw);
-    opacity: 0.3;
-    filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 1));
-    transition: all 0.15s ease-out;
+#texto-sobre-mi h3 {
+    width: 80%;
+    height: 20vw;
+    text-align: center;
+    font-size: 1.6vw;
+    color: rgba(10, 187, 78, 0.821);
+    margin: auto auto auto auto;
+    background-color: rgb(35, 35, 35);
+    padding: 1vw;
+    border-radius: 20px;
 }
 
-.proyecto:hover h3 {
-    opacity: 0;
-    transition: all 0.15s ease-out;
+.texto-sobre-mi-img {
+    position: absolute;
+    width: 13vw;
+    top: 20%;
+    left: 2%;
+    transform: scaleX(-1);
+    opacity: 80%;
 }
 
-.proyecto:hover h4 {
-    opacity: 1;
-    transition: all 1s ease-out;
+#perfil-sobre-mi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin: 2% auto 0 auto;
+
 }
 
-.proyecto h4::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: #dfdfd5;
-    box-shadow: 0 0 10px rgb(10, 187, 77);
-    transition: all 1s ease-out;
+#datos-monitor {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    width: 45vw;
+    height: 20vw;
+    margin: 0 8vw 0 0;
+    padding: 1vw;
+    overflow: hidden;
+    background-color: rgb(10, 187, 77);
+    border-radius: 20px;
 }
 
-.proyecto:hover p {
-    opacity: 1;
-    transition: all 1s ease-out;
+.datos-sobre-mi {
+    font-family: 'VT323', monospace;
+    color: rgb(26, 26, 26);
+    font-size: 1vw;
+    margin: 1vw 0vw 0 1vw;
 }
 
-.proyecto:hover h4::after {
-    width: 100%;
-    transition: all 0.10s ease-out;
+.monitor-codigo {
+    display: flex;
+    z-index: -10;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    width: 25vw;
 }
 
 @keyframes animacionTarjeta {
@@ -217,6 +234,8 @@
     }
 }
 
+
+
 @keyframes animacionTarjetaTitulo {
     0% {
         opacity: 0;
@@ -255,11 +274,11 @@
     }
 
     3% {
-        flex: 10;
+        flex: 30;
     }
 
     15% {
-        flex: 10;
+        flex: 30;
     }
 
 
@@ -289,10 +308,16 @@
     }
 
     20% {
-        font-size: 300%;
+        font-size: 150%;
+        opacity: 0;
         bottom: 40%;
         left: 1.5vw;
         rotate: 90deg;
+    }
+
+    100% {
+        font-size: 150%;
+        opacity: 0;
     }
 }
 
@@ -397,20 +422,25 @@
 
 #lenguajes .contenido .tarjeta:nth-child(2) .tarjeta-img,
 #lenguajes .contenido .tarjeta:nth-child(2) p {
-    animation-delay: 0.1s;
+    animation-delay: 0.2s;
 }
 
 #lenguajes .contenido .tarjeta:nth-child(3) .tarjeta-img,
 #lenguajes .contenido .tarjeta:nth-child(3) p {
-    animation-delay: 0.2s;
+    animation-delay: 0.4s;
 }
 
 #lenguajes .contenido .tarjeta:nth-child(4) .tarjeta-img,
 #lenguajes .contenido .tarjeta:nth-child(4) p {
-    animation-delay: 0.3s;
+    animation-delay: 0.5s;
 }
 
 #lenguajes .contenido .tarjeta:nth-child(5) .tarjeta-img,
 #lenguajes .contenido .tarjeta:nth-child(5) p {
-    animation-delay: 0.4s;
+    animation-delay: 0.3s;
+}
+
+#lenguajes .contenido .tarjeta:nth-child(6) .tarjeta-img,
+#lenguajes .contenido .tarjeta:nth-child(6) p {
+    animation-delay: 0.1s;
 }
