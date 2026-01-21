@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+    #proyecto-carrusel {
+        margin: 10% auto 0 auto;
+        flex-direction: row !important;
+        width: 80%;
+        height: 100px;
+        border-radius: 15px;
+    }
+
+    .lista-proyectos {
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        border-radius: 10px
+    }
+
+    .contenedor-img-lista-proyectos {
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo-lista-proyectos {
+        margin: 2vw auto auto auto;
+        font-size: 7vw;
+        color: rgb(12, 12, 12);
+        text-shadow: 10px 7px 10px rgb(0, 0, 0, 0.6);
+    }
+
+    .descripcion-lista-proyectos {
+        width: 70%;
+        text-align: center;
+        margin: 2vw auto auto auto;
+        font-size: 4vw;
+        color: rgb(12, 12, 12);
+        text-shadow: 10px 7px 10px rgb(0, 0, 0, 0.6);
+    }
+
+    .tecnologias-lista-proyectos {
+        display: flex;
+        flex-direction: column;
+        margin: auto auto auto auto;
+    }
+
+    .tecnologias {
+        margin: 2vw auto auto auto;
+        font-size: 6.5vw;
+        color: rgb(12, 12, 12);
+        text-shadow: 7px 4px 10px rgb(0, 0, 0, 0.6);
+    }
+
+    .img-tecnologias {
+        width: 40vw;
+        margin: 2vw auto auto auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-wrap: wrap;
+    }
+
+    .tarjeta-img {
+        font-size: 6.5vw;
+        color: black;
+    }
+
+    .tecnologia-nombre {
+        font-size: 0.6vw !important;
+    }
+
+    @keyframes carruselMostrarTitulo {
+
+        2% {
+            font-size: 100%;
+            bottom: 0%;
+            left: 1.5vw;
+            rotate: 0deg;
+        }
+
+        15% {
+            font-size: 100%;
+            rotate: 0deg;
+        }
+
+        17% {
+            opacity: 1;
+
+        }
+
+        20% {
+            font-size: 100%;
+            opacity: 0;
+            bottom: 0%;
+            left: 1.5vw;
+            rotate: 90deg;
+        }
+
+        100% {
+            font-size: 150%;
+            opacity: 0;
+        }
+    }
+}

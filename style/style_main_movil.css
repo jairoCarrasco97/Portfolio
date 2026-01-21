@@ -79,7 +79,7 @@
     #datos-monitor {
         display: grid;
         grid-template-columns: max-content 1fr;
-        width: 70%;
+        width: 80%;
         height: 70vw;
         margin: 0 8vw 0 0;
         padding: 1vw;
@@ -87,6 +87,10 @@
         background-color: rgb(10, 187, 77);
         border-radius: 20px;
         margin: auto auto auto auto;
+    }
+
+    #datos-monitor h1 {
+        padding: 1vw;
     }
 
     .datos-sobre-mi {
@@ -103,6 +107,21 @@
         top: 20%;
         left: 65%;
         width: 25vw;
+    }
+
+    #texto-sobre-mi {
+        width: 90%;
+        height: auto;
+        margin: auto auto auto auto;
+    }
+
+    #texto-sobre-mi h3 {
+        font-size: 4vw;
+        padding: 5vw;
+    }
+
+    #texto-sobre-mi img {
+        left: -6%;
     }
 
     @keyframes carruselMostrarTituloMovil {

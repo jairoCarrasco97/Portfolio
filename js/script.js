@@ -52,6 +52,14 @@ const herramientasSobreMi = "VS Code, Google Antigravity, GitHub, Photoshop";
 const herramientasSobreMiId = "herramientas-sobre-mi";
 const aficcionesSobreMi = "Resolución de Cubos de Rubik, Tecnología, Ejercicio físico y disfrutar de la vida";
 const aficcionesSobreMiId = "aficciones-sobre-mi";
+const proyectoGithub = "GitHub oficial";
+const proyectoGithubId = "proyecto-github";
+const proyectoPortfolio = "Portfolio";
+const proyectoPortfolioId = "proyecto-portfolio";
+const proyectoBibliomagna = "Bibliomagna";
+const proyectoBibliomagnaId = "proyecto-bibliomagna";
+const proyectoCalculadora = "Calculadora Web";
+const proyectoCalculadoraId = "proyecto-calculadora";
 
 let j1 = 0;
 let j2 = 0;
@@ -66,11 +74,14 @@ let j10 = 0;
 let j11 = 0;
 let j12 = 0;
 let j13 = 0;
+let j14 = 0;
+let j15 = 0;
+let j16 = 0;
 
 function animacionContactosEscrito(contactoDiv, id, j) {
 
     const contacto = document.getElementById(id)
-    let delay = Math.floor(Math.random() * (350 - 100 + 1)) + 10;
+    let delay = Math.floor(Math.random() * (450 - 10 + 1)) + 10;
 
     if (j < contactoDiv.length) {
 
@@ -134,3 +145,4 @@ animacionContactosEscrito(formacionSobreMi, formacionSobreMiId, j9);
 animacionContactosEscrito(lenguajesSobreMi, lenguajesSobreMiId, j10);
 animacionContactosEscrito(herramientasSobreMi, herramientasSobreMiId, j11);
 animacionContactosEscrito(aficcionesSobreMi, aficcionesSobreMiId, j12);
+
