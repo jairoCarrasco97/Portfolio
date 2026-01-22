@@ -1,7 +1,8 @@
 @media screen and (max-width: 768px) {
     #lenguajes .contenido {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2vw;
     }
 
     .tarjeta-img {
@@ -9,7 +10,7 @@
     }
 
     .tarjeta p {
-        font-size: 150%;
+        font-size: 130%;
     }
 
     .titulo h2 {
@@ -52,7 +53,7 @@
     #texto-sobre-mi {
         padding: 5vw;
         width: 70vw;
-        height: 80vw;
+        height: auto;
         margin: 0 auto 0 auto;
         font-size: 1.5vw;
     }
@@ -69,9 +70,9 @@
 
     .texto-sobre-mi-img {
         position: absolute;
-        width: 30vw;
-        top: 10%;
-        left: 5%;
+        width: 50vw;
+        top: 2%;
+        left: -16%;
         transform: scaleX(-1);
         opacity: 60%;
     }
@@ -120,8 +121,13 @@
         padding: 5vw;
     }
 
-    #texto-sobre-mi img {
-        left: -6%;
+    .datos-sobre-mi-img {
+        width: 35vw;
+        border-radius: 10px;
+        top: 0%;
+        left: 45%;
+        opacity: 30%;
+
     }
 
     @keyframes carruselMostrarTituloMovil {
