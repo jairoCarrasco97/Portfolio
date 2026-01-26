@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+
+    .despedida-contenedor {
+        width: 70%;
+        height: auto;
+    }
+
+    .despedida-banner {
+        width: 90%;
+        height: 40%;
+    }
+
+    .despedida {
+        font-size: 4vw;
+    }
+
+    #texto-precontacto {
+        text-align: center;
+        font-size: 3vw;
+        margin: -7% 0 0 0;
+    }
+
+    .contacto-cv h2 {
+        font-size: 3vw;
+        width: 65%;
+        padding: 8%;
+    }
+
+    .boton-cv {
+        margin: 5% auto 0% auto;
+        height: 10vw;
+    }
+}

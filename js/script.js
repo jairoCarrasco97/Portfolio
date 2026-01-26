@@ -60,6 +60,10 @@ const proyectoBibliomagna = "Bibliomagna";
 const proyectoBibliomagnaId = "proyecto-bibliomagna";
 const proyectoCalculadora = "Calculadora Web";
 const proyectoCalculadoraId = "proyecto-calculadora";
+const textoPrecontacto = "¿Y si codeamos un rato?";
+const textoPrecontactoId = "texto-precontacto-animado";
+const textoContactoFooter = "Contactos:";
+const textoContactoFooterId = "texto-contacto-footer";
 
 let j1 = 0;
 let j2 = 0;
@@ -75,8 +79,6 @@ let j11 = 0;
 let j12 = 0;
 let j13 = 0;
 let j14 = 0;
-let j15 = 0;
-let j16 = 0;
 
 function animacionContactosEscrito(contactoDiv, id, j) {
 
@@ -145,4 +147,6 @@ animacionContactosEscrito(formacionSobreMi, formacionSobreMiId, j9);
 animacionContactosEscrito(lenguajesSobreMi, lenguajesSobreMiId, j10);
 animacionContactosEscrito(herramientasSobreMi, herramientasSobreMiId, j11);
 animacionContactosEscrito(aficcionesSobreMi, aficcionesSobreMiId, j12);
+animacionContactosEscrito(textoPrecontacto, textoPrecontactoId, j13);
+animacionContactosEscrito(textoContactoFooter, textoContactoFooterId, j14);
 

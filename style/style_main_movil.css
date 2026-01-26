@@ -45,89 +45,17 @@
     }
 
     #perfil-sobre-mi {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+        width: 85%;
+        height: 130vw;
     }
 
     #texto-sobre-mi {
-        padding: 5vw;
-        width: 70vw;
-        height: auto;
-        margin: 0 auto 0 auto;
-        font-size: 1.5vw;
-    }
-
-    #texto-sobre-mi h3 {
-        width: 80%;
-        height: 60vw;
-        text-align: center;
-        font-size: 3.5vw;
-        margin: auto auto auto auto;
-        padding: 1vw;
-        border-radius: 10px;
-    }
-
-    .texto-sobre-mi-img {
-        position: absolute;
-        width: 50vw;
-        top: 2%;
-        left: -16%;
-        transform: scaleX(-1);
-        opacity: 60%;
-    }
-
-    #datos-monitor {
-        display: grid;
-        grid-template-columns: max-content 1fr;
-        width: 80%;
-        height: 70vw;
-        margin: 0 8vw 0 0;
-        padding: 1vw;
-        overflow: hidden;
-        background-color: rgb(10, 187, 77);
-        border-radius: 20px;
-        margin: auto auto auto auto;
-    }
-
-    #datos-monitor h1 {
-        padding: 1vw;
+        font-size: 2.8vw;
+        width: 60%;
     }
 
     .datos-sobre-mi {
-        font-family: 'VT323', monospace;
-        color: rgb(26, 26, 26);
-        font-size: 3vw;
-        margin: 1vw 0vw 0 1vw;
-    }
-
-    .monitor-codigo {
-        display: flex;
-        z-index: -10;
-        position: absolute;
-        top: 20%;
-        left: 65%;
-        width: 25vw;
-    }
-
-    #texto-sobre-mi {
-        width: 90%;
-        height: auto;
-        margin: auto auto auto auto;
-    }
-
-    #texto-sobre-mi h3 {
-        font-size: 4vw;
-        padding: 5vw;
-    }
-
-    .datos-sobre-mi-img {
-        width: 35vw;
-        border-radius: 10px;
-        top: 0%;
-        left: 45%;
-        opacity: 30%;
-
+        font-size: 2.5vw;
     }
 
     @keyframes carruselMostrarTituloMovil {

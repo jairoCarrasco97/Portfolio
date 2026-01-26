@@ -102,8 +102,9 @@ header {
 #slider span {
     display: block;
     font-size: 5vw;
+    font-family: 'VT323', monospace;
     color: rgb(10, 186, 77);
-    animation: animationWord 7s infinite;
+    animation: animationWord 10s infinite;
 }
 
 .menuSuperior li {
@@ -229,11 +230,15 @@ header {
         transform: translateY(0%);
     }
 
-    20% {
+    15% {
+        transform: translateY(0%);
+    }
+
+    30% {
         transform: translateY(-100%);
     }
 
-    40% {
+    45% {
         transform: translateY(-200%);
     }
 
@@ -241,20 +246,12 @@ header {
         transform: translateY(-300%);
     }
 
-    80% {
+    75% {
         transform: translateY(-400%);
     }
 
     100% {
-        transform: translateY(-500%);
-    }
-
-    120% {
-        transform: translateY(-600%);
-    }
-
-    140% {
-        transform: translateY(-700%);
+        transform: translateY(0%);
     }
 }
 

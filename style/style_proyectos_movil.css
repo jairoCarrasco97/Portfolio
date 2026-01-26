@@ -29,8 +29,8 @@
     }
 
     .descripcion-lista-proyectos {
-        width: 70%;
-        text-align: center;
+        width: 80%;
+        text-align: left;
         margin: 5vw auto auto auto;
         font-size: 5vw;
         color: rgb(12, 12, 12);
@@ -54,7 +54,7 @@
         width: 90%;
         margin: 5vw auto 5vw auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         flex-wrap: wrap;
     }
 
@@ -64,7 +64,7 @@
     }
 
     .tecnologia-nombre {
-        font-size: 3.2vw !important;
+        font-size: 5vw !important;
     }
 
     @keyframes carruselMostrarTitulo {

@@ -1,0 +1,180 @@
+.despedida-contenedor {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto auto auto auto;
+    width: 60vw;
+    height: 30vw;
+}
+
+.despedida-banner {
+    width: 60%;
+    height: 40%;
+    margin: auto auto auto auto;
+}
+
+.despedida {
+    font-size: 2vw;
+    text-align: center;
+    margin: auto auto auto auto;
+}
+
+#adios {
+    position: absolute;
+    animation: despedida 5s infinite ease-out;
+}
+
+#texto-precontacto {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: -7% 0 0 0;
+}
+
+#texto-despedida {
+    color: rgb(10, 187, 87);
+}
+
+#texto-precontacto-animado {
+    color: #dfdfd5;
+}
+
+.contacto-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacto-cv h2 {
+    width: 25%;
+    padding: 8%;
+}
+
+.boton-cv {
+    position: absolute;
+    top: 90%;
+    left: 15%;
+    width: 75%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: rgb(10, 187, 87);
+    cursor: pointer;
+}
+
+@keyframes despedida {
+
+    0% {
+        top: 20%;
+        left: 20%;
+        rotate: 5deg;
+        transform: scaleX(1);
+        filter: blur(0px);
+
+    }
+
+    2% {
+        rotate: 0deg;
+        filter: blur(1px);
+    }
+
+    4% {
+        rotate: 5deg;
+        filter: blur(0px);
+    }
+
+    6% {
+        rotate: 0deg;
+        filter: blur(1px);
+
+    }
+
+    8% {
+        rotate: 5deg;
+        filter: blur(0px);
+
+    }
+
+    10% {
+        rotate: 0deg;
+        filter: blur(1px);
+
+    }
+
+    12% {
+        rotate: 5deg;
+        filter: blur(0px);
+
+    }
+
+    14% {
+        rotate: 0deg;
+        filter: blur(1px);
+
+    }
+
+    16% {
+        rotate: 5deg;
+        filter: blur(0px);
+
+    }
+
+    18% {
+        rotate: 0deg;
+        filter: blur(1px);
+
+    }
+
+    20% {
+        rotate: 5deg;
+        filter: blur(0px);
+
+    }
+
+    21% {
+        top: 20%;
+        left: 20%;
+        rotate: 0deg;
+    }
+
+    35% {
+        top: 20%;
+        left: -50%;
+        rotate: 10deg;
+    }
+
+    50% {
+        top: 20%;
+        left: -50%;
+        rotate: 10deg;
+        transform: scaleX(1);
+    }
+
+    51% {
+        transform: scaleX(-1);
+    }
+
+    60% {
+        top: 20%;
+        left: 80%;
+        rotate: 10deg;
+        transform: scaleX(-1);
+    }
+
+    65% {
+        transform: scaleX(1);
+    }
+
+    90% {
+        top: 20%;
+        left: 20%;
+        rotate: 0deg;
+        transform: scaleX(1);
+    }
+
+    100% {
+        top: 20%;
+        left: 20%;
+        rotate: 0deg;
+        transform: scaleX(1);
+    }
+
+}
