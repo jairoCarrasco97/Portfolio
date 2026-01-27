@@ -23,11 +23,135 @@
     .contacto-cv h2 {
         font-size: 3vw;
         width: 65%;
-        padding: 8%;
+        margin: 3% 0 0 10%;
+    }
+
+    .contacto-cv-img {
+        width: 150%;
+        margin: 0 0 100% -40%;
     }
 
     .boton-cv {
-        margin: 5% auto 0% auto;
-        height: 10vw;
+        margin: 5% 0 0 0;
+        width: 30vw;
+        height: 17.5vw;
+    }
+
+    @keyframes despedida {
+
+        0% {
+            top: 12%;
+            left: 20%;
+            rotate: 5deg;
+            transform: scaleX(1);
+            filter: blur(0px);
+
+        }
+
+        2% {
+            rotate: 0deg;
+            filter: blur(1px);
+        }
+
+        4% {
+            rotate: 5deg;
+            filter: blur(0px);
+        }
+
+        6% {
+            rotate: 0deg;
+            filter: blur(1px);
+
+        }
+
+        8% {
+            rotate: 5deg;
+            filter: blur(0px);
+
+        }
+
+        10% {
+            rotate: 0deg;
+            filter: blur(1px);
+
+        }
+
+        12% {
+            rotate: 5deg;
+            filter: blur(0px);
+
+        }
+
+        14% {
+            rotate: 0deg;
+            filter: blur(1px);
+
+        }
+
+        16% {
+            rotate: 5deg;
+            filter: blur(0px);
+
+        }
+
+        18% {
+            rotate: 0deg;
+            filter: blur(1px);
+
+        }
+
+        20% {
+            rotate: 5deg;
+            filter: blur(0px);
+
+        }
+
+        21% {
+            top: 12%;
+            left: 20%;
+            rotate: 0deg;
+        }
+
+        35% {
+            top: 12%;
+            left: -50%;
+            rotate: 10deg;
+        }
+
+        50% {
+            top: 12%;
+            left: -50%;
+            rotate: 10deg;
+            transform: scaleX(1);
+        }
+
+        51% {
+            transform: scaleX(-1);
+        }
+
+        60% {
+            top: 12%;
+            left: 80%;
+            rotate: 10deg;
+            transform: scaleX(-1);
+        }
+
+        65% {
+            transform: scaleX(1);
+        }
+
+        90% {
+            top: 12%;
+            left: 20%;
+            rotate: 0deg;
+            transform: scaleX(1);
+        }
+
+        100% {
+            top: 12%;
+            left: 20%;
+            rotate: 0deg;
+            transform: scaleX(1);
+        }
     }
 }

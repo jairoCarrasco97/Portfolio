@@ -46,15 +46,27 @@
 
 .contacto-cv h2 {
     width: 25%;
-    padding: 8%;
+    padding: 2%;
+}
+
+.contacto-cv-contenedor-img {
+    width: 40%;
+    height: 20%;
+}
+
+.contacto-cv-img {
+    width: 100%;
+}
+
+.contacto-cv-contenedor-texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .boton-cv {
-    position: absolute;
-    top: 90%;
-    left: 15%;
-    width: 75%;
-    height: 7%;
+    width: 20vw;
+    height: 8vw;
     border-radius: 10px;
     background-color: rgb(10, 187, 87);
     cursor: pointer;

@@ -1,4 +1,7 @@
 
+
+const proyectoTitulo = "Proyectos";
+const proyectoTituloId = "proyecto-titulo-escrito";
 const proyectoGithub = "GitHub oficial";
 const proyectoGithubId = "proyecto-github";
 const proyectoPortfolio = "Portfolio";
@@ -12,6 +15,7 @@ let j1 = 0;
 let j2 = 0;
 let j3 = 0;
 let j4 = 0;
+let j5 = 0;
 
 
 function animacionContactosEscrito(contactoDiv, id, j) {
@@ -73,3 +77,4 @@ animacionContactosEscrito(proyectoGithub, proyectoGithubId, j1);
 animacionContactosEscrito(proyectoPortfolio, proyectoPortfolioId, j2);
 animacionContactosEscrito(proyectoBibliomagna, proyectoBibliomagnaId, j3);
 animacionContactosEscrito(proyectoCalculadora, proyectoCalculadoraId, j4);
+animacionContactosEscrito(proyectoTitulo, proyectoTituloId, j4);

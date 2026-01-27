@@ -52,7 +52,16 @@
     #texto-sobre-mi {
         font-size: 2.8vw;
         width: 60%;
+        position: relative;
     }
+
+    .texto-sobre-mi-img {
+        position: absolute;
+        width: 100vw;
+        top: 5%;
+        left: -38%
+    }
+
 
     .datos-sobre-mi {
         font-size: 2.5vw;
