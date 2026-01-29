@@ -2,13 +2,13 @@
 
 const proyectoTitulo = "Proyectos";
 const proyectoTituloId = "proyecto-titulo-escrito";
-const proyectoGithub = "GitHub oficial";
+const proyectoGithub = "GitHub";
 const proyectoGithubId = "proyecto-github";
 const proyectoPortfolio = "Portfolio";
 const proyectoPortfolioId = "proyecto-portfolio";
 const proyectoBibliomagna = "Bibliomagna";
 const proyectoBibliomagnaId = "proyecto-bibliomagna";
-const proyectoCalculadora = "Calculadora Web";
+const proyectoCalculadora = "Calculadora";
 const proyectoCalculadoraId = "proyecto-calculadora";
 
 let j1 = 0;

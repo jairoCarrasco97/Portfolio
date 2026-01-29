@@ -179,6 +179,12 @@
     margin: 1vw 0 0 0;
 }
 
+.dato-escrito::after {
+    content: "|";
+    -webkit-text-fill-color: rgb(10, 187, 77);
+    animation: animacionCursor 1s infinite;
+}
+
 .dato {
     text-align: left;
     background: linear-gradient(90deg, rgb(10, 186, 77), rgb(197, 197, 197), rgb(134, 134, 134));
