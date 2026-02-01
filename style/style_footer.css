@@ -38,6 +38,11 @@
     color: #dfdfd5;
 }
 
+.contacto-footer-contenedor {
+    color: #dededec5;
+    font-family: 'VT323', monospace;
+}
+
 .contacto-cv {
     display: flex;
     flex-direction: row;
