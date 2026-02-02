@@ -50,7 +50,7 @@ Proyectos escritorio:
 
 Proyectos móvil:
 <p align="center">
-<img src="gif/proyectos_movil" alt="Proyectos tarjeta movil" width="25%">  
+<img src="gif/proyectos_movil.gif" alt="Proyectos tarjeta movil" width="25%">  
 </p>
 
 
