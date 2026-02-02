@@ -41,6 +41,19 @@ Las tecnologías usadas en mis proyectos se representan con una animación mostr
 <img src="gif/tecnologias.gif" alt="Portada Portfolio" width="50%">  
 </p>
 
+En la sección de proyectos se muestra mis trabajos, algunos en Desarrollo y otros finalizados, con un diseño de tarjeta horizontal para escritorio y otro vertical para móvil. Todo integrado con el diseño gráfico web.
+
+Proyectos escritorio:
+<p align="center">
+<img src="gif/proyectos_escritorio.gif" alt="Portada Portfolio" width="50%">  
+</p>
+
+Proyectos móvil:
+<p align="center">
+<img src="gif/proyectos_movil" alt="Portada Portfolio" width="25%">  
+</p>
+
+
 
 
 
