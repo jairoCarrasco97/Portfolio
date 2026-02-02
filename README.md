@@ -32,13 +32,13 @@ Todas las animaciones de Typing se renderizan con una función centralizada idea
 - Cursor de inserción: se incorpora el cursor "|" para un mayor realismo.
 
 <p align="center">
-<img src="gif/typing.gif" alt="Animación de escritura" width="800px">  
+<img src="gif/typing.gif" alt="Animación de escritura" width="700px">  
 </p>
 
 Las tecnologías usadas en mis proyectos se representan con una animación mostrando el icono y el nombre de la misma. 
 
 <p align="center">
-<img src="gif/tecnologias.gif" alt="Tecnologias" width="800px">  
+<img src="gif/tecnologias.gif" alt="Tecnologias" width="700px">  
 </p>
 
 ---
@@ -47,12 +47,12 @@ En la sección de proyectos se muestra mis trabajos, algunos en Desarrollo y otr
 
 Proyectos escritorio:
 <p align="center">
-<img src="gif/proyectos_escritorio.gif" alt="Proyectos tarjeta escritorio" width="75%">  
+<img src="gif/proyectos_escritorio.gif" alt="Proyectos tarjeta escritorio" width="800px">  
 </p>
 
 Proyectos móvil:
 <p align="center">
-<img src="gif/proyectos_movil.gif" alt="Proyectos tarjeta movil" width="25%">  
+<img src="gif/proyectos_movil.gif" alt="Proyectos tarjeta movil" width="400px">  
 </p>
 
 En estas tarjetas se muestra el nombre del proyecto, una breve descripción y las tecnologias usadas para su desarrollo. Contiene a su vez un enlace pulsando sobre la imagen del proyecto.
