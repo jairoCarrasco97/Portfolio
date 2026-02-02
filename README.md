@@ -45,7 +45,7 @@ En la sección de proyectos se muestra mis trabajos, algunos en Desarrollo y otr
 
 Proyectos escritorio:
 <p align="center">
-<img src="gif/proyectos_escritorio.gif" alt="Proyectos tarjeta escritorio" width="50%">  
+<img src="gif/proyectos_escritorio.gif" alt="Proyectos tarjeta escritorio" width="75%">  
 </p>
 
 Proyectos móvil:
