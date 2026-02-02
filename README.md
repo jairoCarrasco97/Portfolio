@@ -53,6 +53,8 @@ Proyectos móvil:
 <img src="gif/proyectos_movil.gif" alt="Proyectos tarjeta movil" width="25%">  
 </p>
 
+En estas tarjetas se muestra el nombre del proyecto, una breve descripción y las tecnologias usadas para su desarrollo. Contiene a su vez un enlace pulsando sobre la imagen del proyecto.
+
 
 
 
