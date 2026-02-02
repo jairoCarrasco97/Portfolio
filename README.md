@@ -62,7 +62,7 @@ En estas tarjetas se muestra el nombre del proyecto, una breve descripción y la
 Para finalizar se expone una sección de despedida. En ella se añaden varias animaciones visuales junto a mis contactos, enlaces y la descarga de mi curriculum.
 
 <p align="center">
-<img src="gif/despedida.gif" alt="Seccion de despedida" width="50%">  
+<img src="gif/despedida.gif" alt="Seccion de despedida" width="800px">  
 </p>
 
 
