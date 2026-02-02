@@ -19,7 +19,7 @@ Escritorio:
 
 Móvil:
 <p align="center">
-<img src="gif/portada_movil.gif" alt="Portada Portfolio movil" width="500px">  
+<img src="gif/portada_movil.gif" alt="Portada Portfolio movil" width="400px">  
 </p>
 
 La interfaz de bienvenida incorpora una animación de saludo visualizado a través del propio icono 👋. Tras ello, un pequeño slice con información básica e iconos de contacto y descarga de currículum.
@@ -32,13 +32,13 @@ Todas las animaciones de Typing se renderizan con una función centralizada idea
 - Cursor de inserción: se incorpora el cursor "|" para un mayor realismo.
 
 <p align="center">
-<img src="gif/typing.gif" alt="Animación de escritura" width="50%">  
+<img src="gif/typing.gif" alt="Animación de escritura" width="800px">  
 </p>
 
 Las tecnologías usadas en mis proyectos se representan con una animación mostrando el icono y el nombre de la misma. 
 
 <p align="center">
-<img src="gif/tecnologias.gif" alt="Tecnologias" width="50%">  
+<img src="gif/tecnologias.gif" alt="Tecnologias" width="800px">  
 </p>
 
 ---
