@@ -12,7 +12,10 @@ Este repositorio está dedicado a mi Portfolio personal con diseño responsive t
 Esta web responsive contiene información básica sobre mí y mis proyectos. La intención de este proyecto es visualizar y centralizar mi trabajo para que sea de fácil acceso. A su vez dar información de contacto, tanto correo electrónico, GitHub y Linkedin. La idea original de la web una interfaz sencilla e intuitiva con la intención de llamar la atención del consumidor con pequeñas animaciones dinámicas. De esta idea original se consiguió la siguiente interfaz:  
 
 Escritorio:
+
+<p align="center">
 <img src="gif/portada_escritorio.gif" alt="Portada Portfolio" width="50%">
+</p>
 
 Móvil:
 <img src="gif/portada_movil.gif" alt="Portada Portfolio" width="50%">
