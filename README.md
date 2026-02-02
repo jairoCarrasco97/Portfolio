@@ -17,7 +17,16 @@ Escritorio:
 Móvil:
 ![Portada Portfolio](gif/portada_movil.gif)
 
-La interfaz de bienvenida incorpora una animación de saludo visualizado a través del propio icono 👋. Tras ello, un pequeño slice con información básica e iconos de contacto y descarga de currículum. 
+La interfaz de bienvenida incorpora una animación de saludo visualizado a través del propio icono 👋. Tras ello, un pequeño slice con información básica e iconos de contacto y descarga de currículum.
+
+Todas las animaciones de Typing se renderizan con una función centralizada ideada con la siguiente intención:
+
+- Escritura de un intervalo entre pulsaciones de teclas aleatorio: El script calcula un Delay aleatorio entre 10 y 550ms para simular una escritura realista. pulsaciones de teclas rápidas y lentas simulan cuando un usuario pulsa teclas mas lejanas, o teclas que son mas cercanas entre sí o más comunes.
+- Error de letra: La escritura comete un error con una probalidad de 0.125 (12,5%), simplemente este error escribe la letra siguiente en vez de la que tocaría en ese índice. En la siguiente interacción se corrige y continúa el bucle.
+- Borrado de texto: Tras completar el texto inicialmente ideado, se ejecuta una función complementaria para eliminar todo el texto anteriormente escrito también con un delay aleatorio entre 10 y 400ms.
+- Cursor de inserción: se incorpora el cursor "|" para un mayor realismo.
+
+![Portada Portfolio](gif/typing.gif)
 
 
 
