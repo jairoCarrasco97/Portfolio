@@ -14,7 +14,7 @@ Esta web responsive contiene información básica sobre mí y mis proyectos. La 
 Escritorio:
 
 <p align="center">
-<img src="gif/portada_escritorio.gif" alt="Portada Portfolio escritorio" width="50%">
+<img src="gif/portada_escritorio.gif" alt="Portada Portfolio escritorio" width="500px">
 </p>
 
 Móvil:
