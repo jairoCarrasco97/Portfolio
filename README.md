@@ -18,7 +18,9 @@ Escritorio:
 </p>
 
 Móvil:
-<img src="gif/portada_movil.gif" alt="Portada Portfolio" width="50%">
+<p align="center">
+<img src="gif/portada_movil.gif" alt="Portada Portfolio" width="50%">  
+</p>
 
 La interfaz de bienvenida incorpora una animación de saludo visualizado a través del propio icono 👋. Tras ello, un pequeño slice con información básica e iconos de contacto y descarga de currículum.
 
@@ -29,11 +31,16 @@ Todas las animaciones de Typing se renderizan con una función centralizada idea
 - Borrado de texto: Tras completar el texto inicialmente ideado, se ejecuta una función complementaria para eliminar todo el texto anteriormente escrito también con un delay aleatorio entre 10 y 400ms.
 - Cursor de inserción: se incorpora el cursor "|" para un mayor realismo.
 
-<img src="gif/typing.gif" alt="Portada Portfolio" width="50%">
+<p align="center">
+<img src="gif/typing.gif" alt="Portada Portfolio" width="50%">  
+</p>
 
 Las tecnologías usadas en mis proyectos se representan con una animación mostrando el icono y el nombre de la misma. 
 
-<img src="gif/tecnologias.gif" alt="Portada Portfolio" width="50%">
+<p align="center">
+<img src="gif/tecnologias.gif" alt="Portada Portfolio" width="50%">  
+</p>
+
 
 
 
