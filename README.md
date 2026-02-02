@@ -19,7 +19,7 @@ Escritorio:
 
 Móvil:
 <p align="center">
-<img src="gif/portada_movil.gif" alt="Portada Portfolio" width="50%">  
+<img src="gif/portada_movil.gif" alt="Portada Portfolio" width="25%">  
 </p>
 
 La interfaz de bienvenida incorpora una animación de saludo visualizado a través del propio icono 👋. Tras ello, un pequeño slice con información básica e iconos de contacto y descarga de currículum.
