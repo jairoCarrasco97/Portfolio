@@ -14,12 +14,12 @@ Esta web responsive contiene información básica sobre mí y mis proyectos. La 
 Escritorio:
 
 <p align="center">
-<img src="gif/portada_escritorio.gif" alt="Portada Portfolio" width="50%">
+<img src="gif/portada_escritorio.gif" alt="Portada Portfolio escritorio" width="50%">
 </p>
 
 Móvil:
 <p align="center">
-<img src="gif/portada_movil.gif" alt="Portada Portfolio" width="25%">  
+<img src="gif/portada_movil.gif" alt="Portada Portfolio movil" width="25%">  
 </p>
 
 La interfaz de bienvenida incorpora una animación de saludo visualizado a través del propio icono 👋. Tras ello, un pequeño slice con información básica e iconos de contacto y descarga de currículum.
@@ -32,25 +32,25 @@ Todas las animaciones de Typing se renderizan con una función centralizada idea
 - Cursor de inserción: se incorpora el cursor "|" para un mayor realismo.
 
 <p align="center">
-<img src="gif/typing.gif" alt="Portada Portfolio" width="50%">  
+<img src="gif/typing.gif" alt="Animación de escritura" width="50%">  
 </p>
 
 Las tecnologías usadas en mis proyectos se representan con una animación mostrando el icono y el nombre de la misma. 
 
 <p align="center">
-<img src="gif/tecnologias.gif" alt="Portada Portfolio" width="50%">  
+<img src="gif/tecnologias.gif" alt="Tecnologias" width="50%">  
 </p>
 
 En la sección de proyectos se muestra mis trabajos, algunos en Desarrollo y otros finalizados, con un diseño de tarjeta horizontal para escritorio y otro vertical para móvil. Todo integrado con el diseño gráfico web.
 
 Proyectos escritorio:
 <p align="center">
-<img src="gif/proyectos_escritorio.gif" alt="Portada Portfolio" width="50%">  
+<img src="gif/proyectos_escritorio.gif" alt="Proyectos tarjeta escritorio" width="50%">  
 </p>
 
 Proyectos móvil:
 <p align="center">
-<img src="gif/proyectos_movil" alt="Portada Portfolio" width="25%">  
+<img src="gif/proyectos_movil" alt="Proyectos tarjeta movil" width="25%">  
 </p>
 
 
