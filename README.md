@@ -5,7 +5,7 @@
 Este repositorio está dedicado a mi Portfolio personal con diseño responsive tanto para escritorio como para dispositivos móviles. En este se encuentra información y enlaces directos tanto a mis proyectos personales en desarrollo como información de contacto. Este proyecto se encuentra en su versión 1.0 no definitiva, por tanto se irá actualizando con el tiempo.
 
 
-## Entra ya en: https://jairocarrasco97.github.io/Portfolio/ 
+# ¡Entra ya! en: https://jairocarrasco97.github.io/Portfolio/ 
 
 ---
 
@@ -41,6 +41,8 @@ Las tecnologías usadas en mis proyectos se representan con una animación mostr
 <img src="gif/tecnologias.gif" alt="Tecnologias" width="50%">  
 </p>
 
+---
+
 En la sección de proyectos se muestra mis trabajos, algunos en Desarrollo y otros finalizados, con un diseño de tarjeta horizontal para escritorio y otro vertical para móvil. Todo integrado con el diseño gráfico web.
 
 Proyectos escritorio:
@@ -54,6 +56,10 @@ Proyectos móvil:
 </p>
 
 En estas tarjetas se muestra el nombre del proyecto, una breve descripción y las tecnologias usadas para su desarrollo. Contiene a su vez un enlace pulsando sobre la imagen del proyecto.
+
+---
+
+Para finalizar
 
 
 
