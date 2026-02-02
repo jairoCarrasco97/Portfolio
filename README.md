@@ -28,5 +28,10 @@ Todas las animaciones de Typing se renderizan con una función centralizada idea
 
 ![Portada Portfolio](gif/typing.gif)
 
+Las tecnologías usadas en mis proyectos se representan con una animación mostrando el icono y el nombre de la misma. 
+
+![Portada Portfolio](gif/tecnologias.gif)
+
+
 
 
